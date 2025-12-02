@@ -14,7 +14,7 @@ class Model:
 
         app=FaceAnalysis(name='buffalo_l')
         app.prepare(ctx_id=0,det_size=(640,640))
-        dir=r'D:\projects\Minor Project\Virtual-Attendance-System-Minor-Project\data'
+        dir=r'D:\projects\minor\Virtual-Attendance-System-Minor-Project\data'
         names=[]
         known_face={}
         for name in os.listdir(dir):
